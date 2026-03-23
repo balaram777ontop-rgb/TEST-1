@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Budget Tracker</h1>
+
+    <form id="transaction-form">
+      <input type="text" id="desc" placeholder="Description" required>
+      <input type="number" id="amount" placeholder="Amount (+income, -expense)" required>
+      <button type="submit">Add</button>
+    </form>
+
+    <h2>Balance: ₹<span id="balance">0</span></h2>
+
+    <ul id="list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
